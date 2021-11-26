@@ -1,0 +1,18 @@
+C:\Users\raph4\OneDrive\Desktop\Session 5\JeuVid\Finalprojet\.mono\temp\bin\Debug\ProjetFinal.dll
+C:\Users\raph4\OneDrive\Desktop\Session 5\JeuVid\Finalprojet\.mono\temp\bin\Debug\ProjetFinal.pdb
+C:\Users\raph4\OneDrive\Desktop\Session 5\JeuVid\Finalprojet\.mono\temp\obj\Debug\ProjetFinal.csproj.AssemblyReference.cache
+C:\Users\raph4\OneDrive\Desktop\Session 5\JeuVid\Finalprojet\.mono\temp\obj\Debug\ProjetFinal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\raph4\OneDrive\Desktop\Session 5\JeuVid\Finalprojet\.mono\temp\obj\Debug\ProjetFinal.AssemblyInfoInputs.cache
+C:\Users\raph4\OneDrive\Desktop\Session 5\JeuVid\Finalprojet\.mono\temp\obj\Debug\ProjetFinal.AssemblyInfo.cs
+C:\Users\raph4\OneDrive\Desktop\Session 5\JeuVid\Finalprojet\.mono\temp\obj\Debug\ProjetFinal.csproj.CoreCompileInputs.cache
+C:\Users\raph4\OneDrive\Desktop\Session 5\JeuVid\Finalprojet\.mono\temp\obj\Debug\ProjetFinal.dll
+C:\Users\raph4\OneDrive\Desktop\Session 5\JeuVid\Finalprojet\.mono\temp\obj\Debug\ProjetFinal.pdb
+C:\Users\raph4\OneDrive\Desktop\JeuVid\.mono\temp\bin\Debug\ProjetFinal.dll
+C:\Users\raph4\OneDrive\Desktop\JeuVid\.mono\temp\bin\Debug\ProjetFinal.pdb
+C:\Users\raph4\OneDrive\Desktop\JeuVid\.mono\temp\obj\Debug\ProjetFinal.csproj.AssemblyReference.cache
+C:\Users\raph4\OneDrive\Desktop\JeuVid\.mono\temp\obj\Debug\ProjetFinal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\raph4\OneDrive\Desktop\JeuVid\.mono\temp\obj\Debug\ProjetFinal.AssemblyInfoInputs.cache
+C:\Users\raph4\OneDrive\Desktop\JeuVid\.mono\temp\obj\Debug\ProjetFinal.AssemblyInfo.cs
+C:\Users\raph4\OneDrive\Desktop\JeuVid\.mono\temp\obj\Debug\ProjetFinal.csproj.CoreCompileInputs.cache
+C:\Users\raph4\OneDrive\Desktop\JeuVid\.mono\temp\obj\Debug\ProjetFinal.dll
+C:\Users\raph4\OneDrive\Desktop\JeuVid\.mono\temp\obj\Debug\ProjetFinal.pdb

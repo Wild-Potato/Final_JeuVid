@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/DrawSword.wav-b98252a0138df784c55fa19a9bcca09c.sample"
+
+[deps]
+
+source_file="res://Ressources/HeroFull/Prototype Hero 1.3/Audio/DrawSword.wav"
+dest_files=[ "res://.import/DrawSword.wav-b98252a0138df784c55fa19a9bcca09c.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

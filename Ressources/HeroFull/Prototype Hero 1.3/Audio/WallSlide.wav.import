@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/WallSlide.wav-535dd4f9f792a720e9588fb445513418.sample"
+
+[deps]
+
+source_file="res://Ressources/HeroFull/Prototype Hero 1.3/Audio/WallSlide.wav"
+dest_files=[ "res://.import/WallSlide.wav-535dd4f9f792a720e9588fb445513418.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

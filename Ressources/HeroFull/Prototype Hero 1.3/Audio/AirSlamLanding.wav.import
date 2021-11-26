@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/AirSlamLanding.wav-097ba036f608a470225aaf143021fe9e.sample"
+
+[deps]
+
+source_file="res://Ressources/HeroFull/Prototype Hero 1.3/Audio/AirSlamLanding.wav"
+dest_files=[ "res://.import/AirSlamLanding.wav-097ba036f608a470225aaf143021fe9e.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

@@ -1,0 +1,116 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Pause.gd" type="Script" id=1]
+[ext_resource path="res://Ressources/blackTexture.png" type="Texture" id=2]
+[ext_resource path="res://Ressources/Controls.png" type="Texture" id=3]
+
+[node name="Pause" type="CanvasLayer"]
+pause_mode = 2
+process_priority = 1
+script = ExtResource( 1 )
+
+[node name="Background" type="TextureRect" parent="."]
+visible = false
+modulate = Color( 1, 1, 1, 0.458824 )
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource( 2 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Continue" type="Button" parent="."]
+visible = false
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -32.0
+margin_top = -108.0
+margin_right = 37.0
+margin_bottom = -44.0
+text = "Continue"
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Controls" type="Button" parent="."]
+visible = false
+anchor_left = 0.5
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = -32.0
+margin_top = 256.0
+margin_right = 33.0
+margin_bottom = -291.0
+text = "Controls"
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ControlsBack" type="Button" parent="."]
+visible = false
+anchor_left = 0.5
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = -32.0
+margin_top = 456.0
+margin_right = 33.0
+margin_bottom = -91.0
+text = "Back"
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Menu" type="Button" parent="."]
+visible = false
+anchor_left = 0.5
+anchor_right = 0.5
+anchor_bottom = 1.0
+margin_left = -40.0
+margin_top = 320.0
+margin_right = 44.0
+margin_bottom = -227.0
+text = "Main menu"
+flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ControlsImage" type="TextureRect" parent="."]
+visible = false
+margin_left = 304.0
+margin_top = 128.0
+margin_right = 728.0
+margin_bottom = 440.0
+texture = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+visible = false
+margin_right = 40.0
+margin_bottom = 14.0
+text = "Health :"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="health debug" type="Label" parent="."]
+visible = false
+margin_left = 56.0
+margin_right = 106.0
+margin_bottom = 14.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="pressed" from="Continue" to="." method="_on_Continue_pressed"]
+[connection signal="pressed" from="Controls" to="." method="_on_Controls_pressed"]
+[connection signal="pressed" from="ControlsBack" to="." method="_on_ControlsBack_pressed"]
+[connection signal="pressed" from="Menu" to="." method="_on_Menu_pressed"]

@@ -1,0 +1,81 @@
+[gd_scene load_steps=13 format=2]
+
+[ext_resource path="res://Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://CloudLayer.gd" type="Script" id=2]
+[ext_resource path="res://Ressources/Paralax/parallax-00.png" type="Texture" id=3]
+[ext_resource path="res://Ressources/Paralax/parallax-04.png" type="Texture" id=4]
+[ext_resource path="res://Ressources/Paralax/parallax-03.png" type="Texture" id=5]
+[ext_resource path="res://Ressources/Paralax/parallax-01.png" type="Texture" id=6]
+[ext_resource path="res://Ressources/Paralax/parallax-02.png" type="Texture" id=7]
+[ext_resource path="res://Ressources/FForest/ForestTiles.tres" type="TileSet" id=8]
+[ext_resource path="res://Level2.gd" type="Script" id=9]
+[ext_resource path="res://Spawn.tscn" type="PackedScene" id=10]
+[ext_resource path="res://Pause.tscn" type="PackedScene" id=11]
+[ext_resource path="res://WinningScreen.tscn" type="PackedScene" id=12]
+
+[node name="Level2" type="Node2D"]
+script = ExtResource( 9 )
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = ExtResource( 8 )
+cell_size = Vector2( 32, 32 )
+format = 1
+tile_data = PoolIntArray( -524344, 9, 0, -524343, 9, 0, -589748, 8, 0, -458808, 9, 0, -458807, 9, 0, -524212, 8, 0, -393271, 9, 0, -458676, 8, 0, -327735, 9, 0, -393140, 8, 0, -262199, 9, 0, -327604, 8, 0, -196663, 9, 0, -262068, 8, 0, -131127, 9, 0, -196532, 8, 0, -65591, 9, 0, -130996, 8, 0, -55, 9, 0, -65460, 8, 0, 65481, 9, 0, 76, 8, 0, 131017, 9, 0, 65612, 8, 0, 196553, 9, 0, 131148, 8, 0, 262089, 9, 0, 262090, 5, 0, 262091, 6, 0, 262092, 6, 0, 262093, 6, 0, 262094, 6, 0, 262095, 6, 0, 262096, 6, 0, 262097, 6, 0, 262098, 6, 0, 262099, 6, 0, 262100, 6, 0, 262101, 6, 0, 262102, 6, 0, 262103, 6, 0, 262104, 6, 0, 262105, 6, 0, 262106, 6, 0, 262107, 6, 0, 262108, 6, 0, 262109, 6, 0, 262110, 6, 0, 262111, 6, 0, 262112, 6, 0, 262113, 6, 0, 262114, 6, 0, 262115, 6, 0, 262116, 6, 0, 262117, 6, 0, 262118, 6, 0, 262119, 6, 0, 262120, 6, 0, 262121, 6, 0, 262122, 6, 0, 262123, 6, 0, 262124, 6, 0, 262125, 6, 0, 262126, 6, 0, 262127, 6, 0, 262128, 6, 0, 262129, 6, 0, 262130, 6, 0, 262131, 6, 0, 262132, 6, 0, 262133, 6, 0, 262134, 6, 0, 262135, 6, 0, 262136, 6, 0, 262137, 6, 0, 262138, 6, 0, 262139, 6, 0, 262140, 6, 0, 262141, 6, 0, 262142, 6, 0, 262143, 6, 0, 196608, 6, 0, 196609, 6, 0, 196610, 6, 0, 196611, 6, 0, 196612, 6, 0, 196613, 6, 0, 196614, 6, 0, 196615, 6, 0, 196616, 6, 0, 196617, 6, 0, 196618, 6, 0, 196619, 6, 0, 196620, 6, 0, 196621, 6, 0, 196622, 6, 0, 196623, 6, 0, 196624, 6, 0, 196625, 6, 0, 196626, 6, 0, 196627, 6, 0, 196628, 6, 0, 196629, 6, 0, 196630, 6, 0, 196631, 6, 0, 196632, 6, 0, 196633, 6, 0, 196634, 6, 0, 196635, 6, 0, 196636, 6, 0, 196637, 6, 0, 196638, 6, 0, 196639, 6, 0, 196640, 6, 0, 196641, 6, 0, 196642, 6, 0, 196643, 6, 0, 196644, 6, 0, 196645, 6, 0, 196646, 6, 0, 196647, 6, 0, 196648, 6, 0, 196649, 6, 0, 196650, 6, 0, 196651, 6, 0, 196652, 6, 0, 196653, 6, 0, 196654, 6, 0, 196655, 6, 0, 196656, 6, 0, 196657, 6, 0, 196658, 6, 0, 196659, 6, 0, 196660, 6, 0, 196661, 6, 0, 196662, 6, 0, 196663, 6, 0, 196664, 6, 0, 196665, 6, 0, 196666, 6, 0, 196667, 6, 0, 196668, 6, 0, 196669, 6, 0, 196670, 6, 0, 196671, 6, 0, 196672, 6, 0, 196673, 6, 0, 196674, 6, 0, 196675, 6, 0, 196676, 6, 0, 196677, 6, 0, 196678, 6, 0, 196679, 6, 0, 196680, 6, 0, 196681, 6, 0, 196682, 6, 0, 196683, 7, 0, 196684, 8, 0, 327625, 9, 0, 262187, 6, 0, 262188, 6, 0, 262213, 6, 0, 262214, 6, 0, 262215, 6, 0, 262216, 6, 0, 262220, 8, 0, 393161, 9, 0, 327756, 8, 0, 458697, 9, 0, 393292, 8, 0, 524233, 9, 0, 458828, 8, 0, 589769, 9, 0, 655305, 9, 0 )
+
+[node name="player" parent="." instance=ExtResource( 1 )]
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_mirroring = Vector2( 1440, 0 )
+
+[node name="Sprite" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
+texture = ExtResource( 3 )
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2( 0, 1 )
+motion_mirroring = Vector2( 1440, 0 )
+script = ExtResource( 2 )
+
+[node name="Sprite" type="Sprite" parent="ParallaxBackground/ParallaxLayer2"]
+texture = ExtResource( 6 )
+
+[node name="ParallaxLayer3" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2( 0.2, 1 )
+motion_mirroring = Vector2( 1440, 0 )
+
+[node name="Sprite" type="Sprite" parent="ParallaxBackground/ParallaxLayer3"]
+texture = ExtResource( 7 )
+
+[node name="ParallaxLayer4" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2( 0.4, 1 )
+motion_mirroring = Vector2( 1440, 0 )
+
+[node name="Sprite" type="Sprite" parent="ParallaxBackground/ParallaxLayer4"]
+texture = ExtResource( 5 )
+
+[node name="ParallaxBackground2" type="ParallaxBackground" parent="."]
+layer = 0
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground2"]
+motion_scale = Vector2( 2, 0 )
+motion_mirroring = Vector2( 1440, 0 )
+
+[node name="Sprite" type="Sprite" parent="ParallaxBackground2/ParallaxLayer"]
+texture = ExtResource( 4 )
+
+[node name="Spawn" parent="." instance=ExtResource( 10 )]
+position = Vector2( -1642.24, 24.5699 )
+
+[node name="Spawn2" parent="." instance=ExtResource( 10 )]
+position = Vector2( 2372.57, 27.1715 )
+
+[node name="SpawnTimer" type="Timer" parent="."]
+wait_time = 8.0
+autostart = true
+
+[node name="Pause" parent="." instance=ExtResource( 11 )]
+
+[node name="WinningScreen" parent="." instance=ExtResource( 12 )]
+
+[connection signal="timeout" from="SpawnTimer" to="." method="_on_SpawnTimer_timeout"]

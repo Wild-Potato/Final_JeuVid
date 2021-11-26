@@ -1,0 +1,32 @@
+
+Thank you for downloading this asset. 
+The following information is useful when importing the sprite sheets:
+----------------
+
+background1.png
+Resolution: 256x256px 
+
+background2.png
+Resolution: 256x256px 
+
+background3.png
+Resolution: 256x256px 
+
+background4.png
+Resolution: 256x256px 
+
+background5.png
+Resolution: 256x256px 
+
+Props.png
+7 frames, frame resolution: 32x32px
+
+Tiles.png
+10 frames, frame resolution: 32x32px
+
+----------------
+Check out the Preview files for more info.
+I want to thank you for supporting my work and for making it possible for me to continue doing what I love. 
+
+Best regards,
+ Sven

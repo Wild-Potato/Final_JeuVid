@@ -1,0 +1,66 @@
+
+Thank you for downloading this asset. 
+The following information is useful when importing the sprite sheets:
+----------------
+
+Dust.png
+34 frames, frame resolution: 64x64px 
+
+PrototypeHero.png
+116 frames, frame resolution: 100x80px 
+
+PrototypeHero_DeathNoBlood.png
+15 frames, frame resolution: 100x80px 
+
+PrototypeHero_DeathNoBlood_noSword.png
+15 frames, frame resolution: 100x80px 
+
+PrototypeHero_noSword.png
+116 frames, frame resolution: 100x80px 
+
+
+Animations:
+🔹 Idle  6 frames (7 fps)
+🔹 RunStart  2 frames (12 fps)
+🔹 Run  8 frames (12 fps)
+🔹 RunStop  3 frames (12 fps)
+🔹 Jump  1 frame (1 fps)
+🔹 JumpToFall  3 frames (12 fps)
+🔹 Fall  1 frame (1 fps)
+🔹 Attack1  3 frames (14 fps)
+🔹 AttackReturn1  2 frames (14 fps)
+🔹 Attack2  3 frames (14 fps)
+🔹 AttackReturn2  2 frames (14 fps)
+🔹 SheathSword  3 frames (14 fps)
+🔹 Dodge  4 frames (12 fps)
+🔹 Hurt  3 frames (14 fps)
+🔹 Death 15 frames (12 fps)
+
+Update 1.1:
+🔹 Ledge grab  5 frames (16 fps)
+🔹 Ledge climb  8 frames (14 fps)
+🔹 Wall Slide  1 frame (1 fps)
+🔹 Crouch  4 frames (12 fps)
+
+Update 1.2:
+🔹 Attack1Anticipation  1 frame
+🔹 Attack2Anticipation  1 frame
+🔹 UpwardAttack  3 frames (14 fps)
+🔹 UpwardAttackReturn  2 frames (14 fps)
+🔹 AirAttack  4 frames (14 fps)
+🔹 UpwardAirAttack  4 frames (14 fps)
+🔹 AirSlamAttack  2 frames (11 fps)
+🔹 AirSlamLanding  4 frames (11 fps)
+🔹 ParryStance  3 frames (12 fps)
+🔹 Parry  4 frames (12 fps)
+
+Update 1.3:
+🔹 Walk  8 frames (8 fps)
+🔹 Throw  4 frames (14 fps)
+
+----------------
+Check out the Preview files for more info.
+I want to thank you for supporting my work and for making it possible for me to continue doing what I love. 
+
+Best regards,
+ Sven

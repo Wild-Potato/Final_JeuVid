@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Dodge.wav-597fd33ebe4faf512029a1cb843d3b26.sample"
+
+[deps]
+
+source_file="res://Ressources/HeroFull/Prototype Hero 1.3/Audio/Dodge.wav"
+dest_files=[ "res://.import/Dodge.wav-597fd33ebe4faf512029a1cb843d3b26.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
